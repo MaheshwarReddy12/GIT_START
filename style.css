@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body{
@@ -13,9 +14,21 @@ body{
     text-align: center;
     margin: 150px auto;
     min-height: 150px;
-    width: 400px;
-    max-width: 90%;
+    width: 80%;
+    max-width: 400px;
+    
     background-color: beige;
     border-radius: 1rem;
     border: 3px solid red;
+}
+
+button{
+    min-height: 50px;
+    width: 100px;
+    font-size: 28px;
+    color: rgb(41, 21, 21);
+    border-radius: 0.5rem;
+    background-color: burlywood;
+    font-family: sans-serif;
+    margin: 10px 0px 10px 0px;
 }
